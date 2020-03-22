@@ -1,0 +1,19 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $xl;
+}
+
+.main {
+    @include respond-to('md') {
+        flex: 70% 0 0;
+        border: 1px solid grey;
+    }
+}
+
+aside {
+    @include respond-to('md') {
+        flex: 30% 0 0;
+        border: 1px solid grey;
+    }
+}

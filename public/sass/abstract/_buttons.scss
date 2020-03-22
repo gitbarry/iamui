@@ -1,0 +1,33 @@
+@mixin button($type) {
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    color: $button__color;
+    display: inline-block;
+    padding: $space/2 $space;
+    &:hover {
+        filter: brightness(75%);
+        transition: color .15s ease-in-out, filter .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+    @if $type==primary {
+        background-color: $button-primary__background_color;
+    }
+    @else if $type==secondary {
+        background-color: $button-secondary__background_color;
+    }
+    @else if $type==success {
+        background-color: $button-success__background_color;
+    }
+    @else if $type==danger {
+        background-color: $button-danger__background_color;
+    }
+    @else if $type==warning {
+        background-color: $button-warning__background_color;
+    }
+    @else if $type==info {
+        background-color: $button-info__background_color;
+    }
+}

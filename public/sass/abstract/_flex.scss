@@ -1,0 +1,30 @@
+@mixin display-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+// Justify Content
+@mixin justify-content($breakpoint, $position) {
+    @if $breakpoint {
+        @include respond-to($breakpoint) {
+            justify-content: $position;
+        }
+    }
+    @else {
+        justify-content: center;
+    }
+}
+
+// Align Items
+@mixin align-items($breakpoint, $position) {
+    @if $breakpoint {
+        @include respond-to($breakpoint) {
+            align-items: $position;
+        }
+    }
+    @else {
+        align-items: $position;
+    }
+}

@@ -1,0 +1,31 @@
+.button {
+    @include button(primary);
+}
+
+.button--primary {
+    @include button(primary);
+}
+
+.button--secondary {
+    @include button(secondary);
+}
+
+.button--secondary {
+    @include button(secondary);
+}
+
+.button--success {
+    @include button(success);
+}
+
+.button--danger {
+    @include button(danger);
+}
+
+.button--warning {
+    @include button(warning);
+}
+
+.button--info {
+    @include button(info);
+}

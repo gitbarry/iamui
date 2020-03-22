@@ -1,0 +1,216 @@
+.d-flex {
+    @include display-flex;
+}
+
+.d-sm-flex {
+    @include respond-to('sm') {
+        @include display-flex;
+    }
+}
+
+.d-md-flex {
+    @include respond-to('md') {
+        @include display-flex;
+    }
+}
+
+.d-lg-flex {
+    @include respond-to('lg') {
+        @include display-flex;
+    }
+}
+
+.d-xl-flex {
+    @include respond-to('xl') {
+        @include display-flex;
+    }
+}
+
+// Justify Content Flex Start
+.justify-content-center {
+    justify-content: flex-start;
+}
+
+.justify-content-start-sm {
+    @include justify-content(sm, flex-start);
+}
+
+.justify-content-start-md {
+    @include justify-content(md, flex-start);
+}
+
+.justify-content-start-lg {
+    @include justify-content(lg, flex-start);
+}
+
+.justify-content-start-xl {
+    @include justify-content(xl, flex-start);
+}
+
+// Justify Content Flex End
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-end-sm {
+    @include justify-content(sm, flex-end);
+}
+
+.justify-content-end-md {
+    @include justify-content(md, flex-end);
+}
+
+.justify-content-end-lg {
+    @include justify-content(lg, flex-end);
+}
+
+.justify-content-end-xl {
+    @include justify-content(xl, flex-end);
+}
+
+// Justify Content Space Between
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-between-sm {
+    @include justify-content(sm, space-between);
+}
+
+.justify-content-between-md {
+    @include justify-content(md, space-between);
+}
+
+.justify-content-between-lg {
+    @include justify-content(lg, space-between);
+}
+
+.justify-content-between-xl {
+    @include justify-content(xl, space-between);
+}
+
+// Justify Content Space Around
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-around-sm {
+    @include justify-content(sm, space-around);
+}
+
+.justify-content-around-md {
+    @include justify-content(md, space-around);
+}
+
+.justify-content-around-lg {
+    @include justify-content(lg, space-around);
+}
+
+.justify-content-around-xl {
+    @include justify-content(xl, space-around);
+}
+
+// Justify Content Center
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-center-sm {
+    @include justify-content(sm, center);
+}
+
+.justify-content-center-md {
+    @include justify-content(md, center);
+}
+
+.justify-content-center-lg {
+    @include justify-content(lg, center);
+}
+
+.justify-content-center-xl {
+    @include justify-content(xl, center);
+}
+
+// Align Items Start
+.align-items-start {
+    align-items: start;
+}
+
+.align-items-start-sm {
+    @include align-items(sm, start);
+}
+
+.align-items-start-md {
+    @include align-items(md, start);
+}
+
+.align-items-start-lg {
+    @include align-items(lg, start);
+}
+
+.align-items-start-xl {
+    @include align-items(xl, start);
+}
+
+// Align Items Center
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-center-sm {
+    @include align-items(sm, center);
+}
+
+.align-items-center-md {
+    @include align-items(md, center);
+}
+
+.align-items-center-lg {
+    @include align-items(lg, center);
+}
+
+.align-items-center-xl {
+    @include align-items(xl, center);
+}
+
+// Align Items End
+.align-items-end {
+    align-items: end;
+}
+
+.align-items-end-sm {
+    @include align-items(sm, end);
+}
+
+.align-items-end-md {
+    @include align-items(md, end);
+}
+
+.align-items-end-lg {
+    @include align-items(lg, end);
+}
+
+.align-items-end-xl {
+    @include align-items(xl, end);
+}
+
+// Align Items Baseline
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.align-items-baseline-sm {
+    @include align-items(sm, baseline);
+}
+
+.align-items-baseline-md {
+    @include align-items(md, baseline);
+}
+
+.align-items-baseline-lg {
+    @include align-items(lg, baseline);
+}
+
+.align-items-baseline-xl {
+    @include align-items(xl, baseline);
+}

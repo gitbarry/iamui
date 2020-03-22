@@ -1,0 +1,10 @@
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: $space/2;
+    font-size: 100%;
+    border: 1px solid $form__border_color;
+    border-radius: 3px;
+}

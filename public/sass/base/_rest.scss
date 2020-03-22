@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: $font__family;
+    font-size: $font__size;
+    color: $font__color;
+    background-color: $body__bg_color;
+}

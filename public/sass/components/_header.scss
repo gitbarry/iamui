@@ -1,0 +1,36 @@
+.page-header {
+    position: relative;
+    border-bottom: 5px solid #555;
+    text-align: center;
+    padding: $space*2 0;
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.text-logo {
+    color: indigo;
+    line-height: 120%;
+    margin: 0;
+    position: relative;
+    height: 150px;
+    .logo-i {
+        font-size: 2rem;
+        //font-family: 'Times New Roman', Times, serif;
+        color: $black;
+    }
+    .logo-am {
+        font-size: 8rem;
+    }
+    .logo-developer {
+        font-size: 3rem;
+        color: #000;
+        transform: rotate(-10deg);
+        display: inline-block;
+        padding: 3px .25rem;
+        background-color: #91dede;
+        position: relative;
+        top: -2rem;
+    }
+}
